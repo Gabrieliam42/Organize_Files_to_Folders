@@ -5,8 +5,8 @@
 ##### This script has been tested on the Windows environment.
 #
 
-The script first checks for admin privileges and, if not elevated, re-runs itself with admin rights.
-It gets the current working directory and iterates through its contents. Then it will make a directory for each file existent in any directory and subdirectories of the current working directory, and then move the files inside them.
+The script first checks for admin privileges and, if not elevated it re-runs itself with admin rights.
+It iterates through the current working directory and its contents. Then it makes a directory for each of the files existent in any directories and subdirectories of the current working directory, and then move the files inside them.
 
 #
 
